@@ -1,6 +1,7 @@
 import { expect, Locator, Page } from "@playwright/test";
 
 export class LoginPage {
+
     // Define Selectors
     readonly page: Page
     readonly usernameInput: Locator

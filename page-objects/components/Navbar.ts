@@ -1,6 +1,7 @@
 import { expect, Locator, Page } from "@playwright/test";
 
 export class Navbar {
+
     // Locators
     readonly page: Page
     readonly accountSummary: Locator
@@ -20,6 +21,7 @@ export class Navbar {
         this.myMoneyApp = page.locator("#money_map_tab")
         this.onlineStatement = page.locator("#online_statement_tab")
     }
+
     // Funcs
     async clickOnTab(tabName) {
         switch (tabName) {
