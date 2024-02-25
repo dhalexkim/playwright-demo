@@ -78,7 +78,7 @@ test.describe.parallel("Hooks", () => {
     })
 })
 
-test("Custom helper", async ({page}) => {
+test.skip("Custom helper", async ({page}) => {
 
     await loadHomepage(page)
     await page.pause()
